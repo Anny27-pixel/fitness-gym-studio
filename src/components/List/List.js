@@ -3,6 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './List.css';
 const List = ({ list }) => {
+    console.log(list);
+    let total = 0;
+    for (const exercise of list) {
+        total = total + exercise.time;
+    }
     return (
         <div className='list'>
             <div className='profile'>
@@ -25,6 +30,13 @@ const List = ({ list }) => {
                     </div>
                 </div>
             </div>
+            <h3>Add a Break</h3>
+            <div>
+                <button>10</button>
+            </div>
+            <h3>Exercise Details</h3>
+            <p className='exercise-detail'>Exercise Time :{total}s </p>
+            <p>Break Time: </p>
             <p>selected exercise: {list.length}</p>
         </div>
     );
