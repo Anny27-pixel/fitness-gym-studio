@@ -1,8 +1,7 @@
 import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
 import './List.css';
+import { ToastContainer, toast } from 'react-toastify';
 const List = ({ list }) => {
     // console.log(list);
     let total = 0;
@@ -22,6 +21,9 @@ const List = ({ list }) => {
     //     displayedBreak.innerText = savedBreak;
     // }
     // displayBreakFromLS();
+    const activityCompleted = () => {
+        toast.success(`Congratulations!!! you have completed your today's exercise`);
+    }
     return (
         <div className='list'>
             <div className='profile'>
@@ -57,9 +59,11 @@ const List = ({ list }) => {
             <h3>Exercise Details</h3>
             <p className='exercise-detail'>Exercise Time :{total}s </p>
             <p className='exercise-detail break-time'>Break Time: <span id="break-time">0</span>s</p>
-            <div>
-                <button>Activity Completed</button>
-            </div>
+
+            <>
+                <ToastContainer />
+                <button onClick={activityCompleted}>Activity Completed </button>
+            </>
         </div>
     );
 };
