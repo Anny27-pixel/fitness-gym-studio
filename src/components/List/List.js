@@ -1,6 +1,7 @@
 import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+
 import './List.css';
 const List = ({ list }) => {
     // console.log(list);
@@ -12,7 +13,15 @@ const List = ({ list }) => {
     const breakTime = (time) => {
         const breakTime = document.getElementById('break-time');
         breakTime.innerText = time;
+        localStorage.setItem('break', time);
+
     }
+    const displayBreakFromLS = () => {
+        const savedBreak = localStorage.getItem('break');
+        const displayedBreak = document.getElementById('break-time');
+        displayedBreak.innerText = savedBreak;
+    }
+    displayBreakFromLS();
     return (
         <div className='list'>
             <div className='profile'>
@@ -47,7 +56,10 @@ const List = ({ list }) => {
             </div>
             <h3>Exercise Details</h3>
             <p className='exercise-detail'>Exercise Time :{total}s </p>
-            <p className='exercise-detail break-time'>Break Time: <span id="break-time"></span>s</p>
+            <p className='exercise-detail break-time'>Break Time: <span id="break-time">0</span>s</p>
+            <div>
+                <button>Activity Completed</button>
+            </div>
         </div>
     );
 };

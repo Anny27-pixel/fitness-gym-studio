@@ -19,7 +19,7 @@
 
 .exercise-info p {
     margin-bottom: 0;
-    margin-top: 7px;
+    margin-top: 3px;
 }
 
 .exercise-name {
@@ -31,16 +31,19 @@
 }
 
 .add-btn {
-    width: 100%;
+    width: 80%;
     background-color: rgb(30, 133, 133);
     color: white;
     border: none;
-    border-radius: 0px 5px 12px 12px;
+    border-radius: 20px;
     position: absolute;
     bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 30px;
+    margin-bottom: 7px;
+
 }
 
 .add-btn p {
