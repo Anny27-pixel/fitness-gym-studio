@@ -57,6 +57,13 @@ button {
     margin-left: 3px;
 }
 
+.toast {
+    margin-left: 50px;
+    text-align: center;
+    background-color: rgb(51, 108, 108);
+    color: white;
+}
+
 @media screen and (max-width:576px) {
     .personal-details {
         display: grid;

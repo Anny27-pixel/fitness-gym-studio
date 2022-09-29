@@ -2,6 +2,7 @@ import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './List.css';
 import { ToastContainer, toast } from 'react-toastify';
+import { useEffect } from 'react';
 const List = ({ list }) => {
     // console.log(list);
     let total = 0;
@@ -13,14 +14,15 @@ const List = ({ list }) => {
         const breakTime = document.getElementById('break-time');
         breakTime.innerText = time;
         localStorage.setItem('break', time);
-
     }
-    // const displayBreakFromLS = () => {
-    //     const savedBreak = localStorage.getItem('break');
-    //     const displayedBreak = document.getElementById('break-time');
-    //     displayedBreak.innerText = savedBreak;
-    // }
-    // displayBreakFromLS();
+    const displayBreakFromLS = () => {
+        const savedBreak = localStorage.getItem('break');
+        const displayedBreak = document.getElementById('break-time');
+        displayedBreak.innerText = savedBreak;
+    }
+    useEffect(() => {
+        displayBreakFromLS();
+    }, [])
     const activityCompleted = () => {
         toast.success(`Congratulations!!! you have completed your today's exercise`);
     }
@@ -41,7 +43,7 @@ const List = ({ list }) => {
                         <p>Height</p>
                     </div>
                     <div>
-                        <p className='large-text'>22 <span>years</span></p>
+                        <p className='large-text'>22 <span>yr</span></p>
                         <p>Age</p>
                     </div>
                 </div>
@@ -62,7 +64,7 @@ const List = ({ list }) => {
 
             <>
                 <ToastContainer />
-                <button onClick={activityCompleted}>Activity Completed </button>
+                <button className='toast' onClick={activityCompleted}>Activity Completed </button>
             </>
         </div>
     );
