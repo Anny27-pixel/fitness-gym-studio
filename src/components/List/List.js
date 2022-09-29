@@ -1,11 +1,17 @@
 import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import './List.css';
 const List = ({ list }) => {
     // console.log(list);
     let total = 0;
     for (const exercise of list) {
         total = total + exercise.time;
+    }
+
+    const breakTime = (time) => {
+        const breakTime = document.getElementById('break-time');
+        breakTime.innerText = time;
     }
     return (
         <div className='list'>
@@ -31,25 +37,17 @@ const List = ({ list }) => {
             </div>
             <h3>Add a Break</h3>
             <div className='break-time'>
-                <div className='single-time'>
-                    <button>10 <span>s</span></button>
-                </div>
-                <div className='single-time'>
-                    <button>20 <span>s</span></button>
-                </div>
-                <div className='single-time'>
-                    <button>25 <span>s</span></button>
-                </div>
-                <div className='single-time'>
-                    <button>30 <span>s</span></button>
-                </div>
-                <div className='single-time'>
-                    <button>40 <span>s</span></button>
+                <div>
+                    <button onClick={() => breakTime('10')}>10 <span>s</span></button>
+                    <button onClick={() => breakTime('20')}>20<span>s</span></button>
+                    <button onClick={() => breakTime('30')}>30<span>s</span></button>
+                    <button onClick={() => breakTime('40')}>40<span>s</span></button>
+                    <button onClick={() => breakTime('50')}>50<span>s</span></button>
                 </div>
             </div>
             <h3>Exercise Details</h3>
             <p className='exercise-detail'>Exercise Time :{total}s </p>
-            <p className='exercise-detail'>Break Time: </p>
+            <p className='exercise-detail break-time'>Break Time: <span id="break-time"></span>s</p>
         </div>
     );
 };

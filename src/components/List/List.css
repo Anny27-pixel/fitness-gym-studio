@@ -45,18 +45,14 @@
 }
 
 .break-time {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
     border: 1px solid azure;
-    color: darkslategray;
-    border-radius: 10px;
-    padding: 20px 5px;
     background-color: azure;
+    padding: 15px 5px;
+    border-radius: 10px;
 }
 
-.break-time button {
+button {
+    padding: 8px;
     border-radius: 20px;
-    padding: 10px;
-    background-color: rgb(215, 208, 208);
-    border: none;
+    margin-left: 3px;
 }
