@@ -6,7 +6,7 @@ const Gym = () => {
     useEffect(() => {
         fetch('activity.json')
             .then(res => res.json())
-            .then(data => setExercises(data));
+            .then(data => console.log(data));
     }, [])
     return (
         <div className='gym-container'>
