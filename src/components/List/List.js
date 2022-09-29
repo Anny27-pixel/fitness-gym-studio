@@ -16,12 +16,12 @@ const List = ({ list }) => {
         localStorage.setItem('break', time);
 
     }
-    const displayBreakFromLS = () => {
-        const savedBreak = localStorage.getItem('break');
-        const displayedBreak = document.getElementById('break-time');
-        displayedBreak.innerText = savedBreak;
-    }
-    displayBreakFromLS();
+    // const displayBreakFromLS = () => {
+    //     const savedBreak = localStorage.getItem('break');
+    //     const displayedBreak = document.getElementById('break-time');
+    //     displayedBreak.innerText = savedBreak;
+    // }
+    // displayBreakFromLS();
     return (
         <div className='list'>
             <div className='profile'>

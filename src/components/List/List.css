@@ -56,3 +56,10 @@ button {
     border-radius: 20px;
     margin-left: 3px;
 }
+
+@media screen and (max-width:576px) {
+    .personal-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
