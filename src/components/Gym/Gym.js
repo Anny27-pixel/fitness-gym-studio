@@ -8,6 +8,10 @@ const Gym = () => {
             .then(res => res.json())
             .then(data => setExercises(data));
     }, [])
+
+    const handleAddToList = (id) => {
+        console.log('clicked', id);
+    }
     return (
         <div className='gym-container'>
             <div>
@@ -17,6 +21,7 @@ const Gym = () => {
                         exercises.map(exercise => <Exercise
                             key={exercise.id}
                             exercise={exercise}
+                            handleAddToList={handleAddToList}
                         ></Exercise>)
                     }
                 </div>
