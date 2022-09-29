@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
+import List from '../List/List';
 import './Gym.css';
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
+    const [list, setList] = useState([]);
     useEffect(() => {
         fetch('activity.json')
             .then(res => res.json())
             .then(data => setExercises(data));
     }, [])
 
-    const handleAddToList = (id) => {
-        console.log('clicked', id);
+    const handleAddToList = (exercise) => {
+        console.log(exercise);
+        const newList = [...list, exercise];
+        setList(newList);
     }
     return (
         <div className='gym-container'>
@@ -27,7 +31,7 @@ const Gym = () => {
                 </div>
             </div>
             <div className="cart-container">
-                <h3>my profile</h3>
+                <List list={list}></List>
             </div>
         </div>
     );

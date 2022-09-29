@@ -3,7 +3,7 @@ import './Exercise.css';
 const Exercise = (props) => {
     // console.log(props.exercise);
     const { handleAddToList } = props;
-    const { id, img, name, detail, age, time } = props.exercise;
+    const { img, name, detail, age, time } = props.exercise;
     return (
         <div className='exercise'>
             <img src={img} alt="" />
@@ -13,7 +13,7 @@ const Exercise = (props) => {
                 <p>For Age : {age}</p>
                 <p>Time Required : {time}s</p>
             </div>
-            <button onClick={() => handleAddToList(id)} className='add-btn'>
+            <button onClick={() => handleAddToList(props.exercise)} className='add-btn'>
                 <p>Add To List</p>
             </button>
         </div>
