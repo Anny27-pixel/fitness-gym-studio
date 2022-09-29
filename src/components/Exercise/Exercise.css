@@ -1,0 +1,52 @@
+.exercise {
+    width: 300px;
+    height: 550px;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.exercise img {
+    height: 256px;
+    width: 256px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.exercise-info {
+    margin: 0 14px;
+}
+
+.exercise-info p {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+.exercise-name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.add-btn {
+    width: 100%;
+    background-color: rgb(30, 133, 133);
+    color: white;
+    border: none;
+    border-radius: 0px 5px 12px 12px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-btn p {
+    font-weight: 600;
+}
+
+.add-btn:hover {
+    background-color: rgb(12, 63, 63);
+}

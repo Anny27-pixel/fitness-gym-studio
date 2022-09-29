@@ -1,7 +1,7 @@
 [
     {
         "id": "633510f1d233affba849698e",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fladyboss.com%2Fblog%2Fwp-content%2Fuploads%2Fsites%2F61%2F2020%2F03%2Fblog_image_headerBurpees.jpg&imgrefurl=https%3A%2F%2Fladyboss.com%2Fblog%2Fsorry-for-what-i-said-while-doing-burpees%2F&tbnid=eq5VQwBQFrY4CM&vet=12ahUKEwj_2I2xiLn6AhXbjtgFHTPPBdQQMyg8egQIARBb..i&docid=dBlsJOPPXMGmMM&w=770&h=350&q=Burpees&ved=2ahUKEwj_2I2xiLn6AhXbjtgFHTPPBdQQMyg8egQIARBb",
+        "img": "https://ladyboss.com/blog/wp-content/uploads/sites/61/2020/03/blog_image_headerBurpees.jpg",
         "name": "Burpees",
         "detail": "The burpee, a squat thrust with an additional stand between repetitions, is a full body exercise used in strength training. ",
         "age": "20-25",
@@ -9,7 +9,7 @@
     },
     {
         "id": "633510f18cf65d9991b21335",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fpost.healthline.com%2Fwp-content%2Fuploads%2F2020%2F11%2FSide_Plank_732x549-thumbnail.jpg%3Fh%3D1152&imgrefurl=https%3A%2F%2Fwww.healthline.com%2Fhealth%2Fside-plank&tbnid=Dzrm7wENjedkPM&vet=12ahUKEwjW5MLhirn6AhXyVHwKHYQTD-cQMygEegUIARDUAQ..i&docid=nh6vHKdz5wpweM&w=732&h=549&q=Side%20planks&ved=2ahUKEwjW5MLhirn6AhXyVHwKHYQTD-cQMygEegUIARDUAQ",
+        "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/11/Side_Plank_732x549-thumbnail.jpg?h=1152",
         "name": "Side planks",
         "detail": "The side plank exercise or yoga pose builds strong oblique abdominal muscles and balance.",
         "age": "15-20",
@@ -17,7 +17,7 @@
     },
     {
         "id": "633510f1cb59c48308fcd2b3",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fbarbend.com%2Fwp-content%2Fuploads%2F2021%2F04%2FBarBend-Article-Image-760-x-427-2021-04-19T170327.648.jpg&imgrefurl=https%3A%2F%2Fbarbend.com%2Fdumbbell-row%2F&tbnid=J8lnMpOklZ5HwM&vet=12ahUKEwiY7JzHi7n6AhWXndgFHXLcBcEQMygKegUIARDmAQ..i&docid=U6BtlJbJGyay2M&w=760&h=427&q=Dumbbell%20rows&ved=2ahUKEwiY7JzHi7n6AhWXndgFHXLcBcEQMygKegUIARDmAQ",
+        "img": "https://barbend.com/wp-content/uploads/2021/04/BarBend-Article-Image-760-x-427-2021-04-19T170327.648.jpg",
         "name": "Dumbbell rows",
         "detail": "The dumbbell row targets the back, grip muscles, and arms. Those muscle groups are responsible for assisting in movements like squats, deadlifts etc.",
         "age": "18-30",
@@ -25,7 +25,7 @@
     },
     {
         "id": "633510f12931c890e1db8a60",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FDustin-Grooms%2Fpublication%2F339085991%2Ffigure%2Ffig1%2FAS%3A960993274372097%401606130059317%2FSingle-leg-RDL-to-cone-RDL-Romanian-deadlift.png&imgrefurl=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FSingle-leg-RDL-to-cone-RDL-Romanian-deadlift_fig1_339085991&tbnid=FxyiL79l9gH9VM&vet=12ahUKEwjQnvaYjLn6AhWni9gFHczPDN8QMygpegUIARDBAg..i&docid=VmBJRNUG_bY2lM&w=721&h=612&q=Single-leg%20deadlifts&ved=2ahUKEwjQnvaYjLn6AhWni9gFHczPDN8QMygpegUIARDBAg",
+        "img": "https://www.researchgate.net/profile/Dustin-Grooms/publication/339085991/figure/fig1/AS:960993274372097@1606130059317/Single-leg-RDL-to-cone-RDL-Romanian-deadlift.png",
         "name": "Single-leg deadlifts",
         "detail": "A Single Leg Deadlift is a hip-hinge movement that strengthens the back, core and legs. This variation of a traditional deadlift involves one leg lifting off the ground and extending out behind you.",
         "age": "15-30",
@@ -33,7 +33,7 @@
     },
     {
         "id": "633510f12b7fb6e3991954a2",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fbreakingmuscle.com%2Fwp-content%2Fuploads%2F2022%2F03%2Fshutterstock_622105367.jpg&imgrefurl=https%3A%2F%2Fbreakingmuscle.com%2Foverhead-dumbbell-press%2F&tbnid=NUWiIaD-BaMzOM&vet=12ahUKEwiIhc3gjLn6AhXpNbcAHdODBi0QMyhRegUIARCMAQ..i&docid=dJB-QEFVROgObM&w=760&h=427&q=Standing%20overhead%20dumbbell%20presses&ved=2ahUKEwiIhc3gjLn6AhXpNbcAHdODBi0QMyhRegUIARCMAQ",
+        "img": "https://breakingmuscle.com/wp-content/uploads/2022/03/shutterstock_622105367.jpg",
         "name": "Standing overhead dumbbell presses",
         "detail": "The standing on overhead dumbbell press is a higher intensity exercise than the seated dumbbell press.",
         "age": "20-30",
@@ -41,7 +41,7 @@
     },
     {
         "id": "633510f128fdd53ac6dd6bcc",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shape.com%2Fthmb%2Fxbai7DW8syGLVJOY-dGYS2rtG3w%3D%2F2000x1125%2Fsmart%2Ffilters%3Ano_upscale()%3Afocal(939x185%3A941x187)%2F7-Stability-and-Mobility-Exercises-You-Should-Do-Before-Every-Workout-GettyImages-924163426-2000-40f714d8dfff46c7afa4eacb76115fcd.jpg&imgrefurl=https%3A%2F%2Fwww.shape.com%2Ffitness%2Fworkouts%2Fexercise-recovery%2Fmobility-exercises-workout-warm-up&tbnid=5gYweCWIubBLRM&vet=12ahUKEwjZzofOjbn6AhUMk9gFHe3HD-oQMygSegUIARDlAQ..i&docid=2ofE21bKXYoUHM&w=2000&h=1125&q=Mobility%20work&ved=2ahUKEwjZzofOjbn6AhUMk9gFHe3HD-oQMygSegUIARDlAQ",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlWBQhQeoXNGaVBn0xR5EAQkX4_GrNAaSD67r2l0CRANYjXiCi3shOW5NV8nA6Mevtb9c&usqp=CAU",
         "name": "Mobility work",
         "detail": "Stability and Mobility Exercises to Improve Flexibility and Strength · Wrist Stretch and Knuckle Push-Up ·",
         "age": "14-30",
@@ -49,7 +49,7 @@
     },
     {
         "id": "633510f128fdd53ac6dd8bcc",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3-us-west-1.amazonaws.com%2Fcontentlab.studiod%2Fgetty%2F5ba79250ad93401da2519ff9725ca4a4.jpg&imgrefurl=https%3A%2F%2Fwww.livestrong.com%2Fslideshow%2F1011129-10-surprising-benefits-pilates%2F&tbnid=npuPYGdNRj8xiM&vet=12ahUKEwiGkNq4jrn6AhXdKbcAHZ4WBysQMygvegUIARCvAg..i&docid=CivqXLi4-ZagWM&w=5664&h=3776&q=Pilates&ved=2ahUKEwiGkNq4jrn6AhXdKbcAHZ4WBysQMygvegUIARCvAg",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJUrq_sj_3f3aVuiIsr2YFadidtgU-RQMz4mM3FlomUAOjgBhrdwz2JuVTnlQg9qqiQu0&usqp=CAU",
         "name": "Pilates",
         "detail": "Pilates is a form of low-impact exercise that aims to strengthen muscles while improving postural alignment and flexibility.",
         "age": "25-35",
@@ -57,7 +57,7 @@
     },
     {
         "id": "633510f128fdd53ac6dd6b9c",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmanalombok.com%2Fwp-content%2Fuploads%2F2018%2F05%2Fbacklit-beach-dawn-588561.jpg&imgrefurl=https%3A%2F%2Fmanalombok.com%2Ftravel%2Fyoga-is-for-everyone-heres-why%2F&tbnid=0DS1tu_3YGXrEM&vet=12ahUKEwjFiuL7jrn6AhUvkdgFHRdyBAIQMygUegUIARDnAQ..i&docid=-N8VQmabZanvrM&w=2048&h=1365&q=Yoga&ved=2ahUKEwjFiuL7jrn6AhUvkdgFHRdyBAIQMygUegUIARDnAQ",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpkrwoysOl-8HXot3nhOaF5b52cuVOzwlQnDWTJdtK8rospETMK1Of6wNL66cAdQT4xTQ&usqp=CAU",
         "name": "Yoga",
         "detail": "Yoga is an ancient and complex practice, rooted in Indian philosophy. It began as a spiritual practice but has become popular as a way of promoting physical and mental well-being.",
         "age": "25-50",
@@ -65,7 +65,7 @@
     },
     {
         "id": "633510f128fdd53ac6dd6cc",
-        "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F3076509%2Fpexels-photo-3076509.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D1%26w%3D500&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fstretching%2F&tbnid=9HnaPiRIXI5XgM&vet=12ahUKEwil7Jj6j7n6AhU-LrcAHYhQDAoQMygsegUIARCkAg..i&docid=dGA9iUNlXIZXCM&w=500&h=333&q=Stretching&ved=2ahUKEwil7Jj6j7n6AhU-LrcAHYhQDAoQMygsegUIARCkAg",
+        "img": "https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "name": "Stretching",
         "detail": "Stretching keeps the muscles flexible, strong, and healthy, and we need that flexibility to maintain a range of motion in the joints. ",
         "age": "21-27",
